@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "Helvetica Nue";
+    src: url("../_H_HelveticaNeueInterface_0.ttf") format("truetype");
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Nue";
+}
+
+body {
+    background-color: #141414;
+}
+
+/* LOGO SUPERIOR DIREITO */
+
+.imagem-topo  {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 10%, rgba(0, 0, 0, 0));
+}
+
+.imagem-topo img{
+    width: 200px;
+    margin-left: 25px;
+}
+
+.imagem-topo img:hover {
+    cursor:pointer;
+}
+
+/* Perfis */
+
+.conteudo {
+    max-width: 1200px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.title {
+    margin: auto;
+    font-size: 5em;
+    font-weight: lighter;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    color: gray;
+}
+
+.link:hover {
+    color: white;
+}
+
+.card {
+    text-align: center;
+    width: 200px;
+    margin-top: 35px;
+    margin-left: 30px;
+    border-radius: 4px;
+    float: left;
+}
+
+.card-image {
+    height: 200px;
+    background-size: cover;
+    border: 4px solid #141414;
+    border-radius: 10px;
+}
+
+.link:hover .card-image {
+    border: 4px solid white;
+}
+
+.card-owner {
+    padding: 10px 10px;
+    font-size: 1.3em;
+}
+
+#botao {
+    display: inline-block;
+    padding: 10px 35px;
+    margin-top: 150px;
+    border: 2px solid gray;
+    font-size: 2.5em;
+    color: gray;
+    letter-spacing: 2px;
+
+}
+
+#botao:hover {
+    border: 2px solid white;
+    color: white;
+}
+
+.card-1 .card-image {
+    background-image: url(../img/avatar-1.png);
+}
+
+.card-2 .card-image {
+    background-image: url(../img/avatar-2.png);
+}
+
+.card-3 .card-image {
+    background-image: url(../img/avatar-3.png);
+}
+
+.card-4 .card-image {
+    background-image: url(../img/avatar-4.png);
+}
+
+.card-5 .card-image {
+    background-image: url(../img/avatar-5.png);
+}
