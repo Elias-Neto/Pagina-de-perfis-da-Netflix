@@ -1,13 +1,7 @@
-@font-face {
-    font-family: "Helvetica Nue";
-    src: url("../_H_HelveticaNeueInterface_0.ttf") format("truetype");
-}
-
-
 *{
     margin: 0;
     padding: 0;
-    font-family: "Helvetica Nue";
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -44,18 +38,14 @@ body {
     font-weight: lighter;
 }
 
-ul {
-    list-style: none;
+a {
+    text-decoration: none;
 }
 
 li {
+    list-style: none;
     display: inline-block;
-    text-decoration: none;
     color: gray;
-}
-
-li:hover {
-    color: white;
 }
 
 .card {
@@ -75,6 +65,7 @@ li:hover {
 
 li:hover .card-image {
     border-color: white;
+    color: white
 }
 
 .card-owner {
