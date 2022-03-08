@@ -32,13 +32,9 @@ body {
 /* Perfis */
 
 .conteudo {
-    max-width: 1200px;
+    margin-top: 8%;
     text-align: center;
     color: white;
-    position: absolute;
-    left:50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
 }
 
 
@@ -48,13 +44,17 @@ body {
     font-weight: lighter;
 }
 
-.link {
+ul {
+    list-style: none;
+}
+
+li {
     display: inline-block;
     text-decoration: none;
     color: gray;
 }
 
-.link:hover {
+li:hover {
     color: white;
 }
 
@@ -64,7 +64,6 @@ body {
     margin-top: 35px;
     margin-left: 30px;
     border-radius: 4px;
-    float: left;
 }
 
 .card-image {
@@ -74,8 +73,8 @@ body {
     border-radius: 10px;
 }
 
-.link:hover .card-image {
-    border: 4px solid white;
+li:hover .card-image {
+    border-color: white;
 }
 
 .card-owner {
