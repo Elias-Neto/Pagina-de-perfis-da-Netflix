@@ -63,7 +63,7 @@ li {
     border-radius: 10px;
 }
 
-li:hover .card-image {
+li:hover, .card-image:hover {
     border-color: white;
     color: white
 }
