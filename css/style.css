@@ -65,7 +65,7 @@ li {
 
 li:hover, .card-image:hover {
     border-color: white;
-    color: white
+    color: white;
 }
 
 .card-owner {
